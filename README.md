@@ -16,8 +16,8 @@ I like to talk about technology and development, cartoons, books... Ideas, I lik
 I like pictures too
 
 * [flickr.com/guilhermemar](http://flickr.com/guilhermemar)
-* [instagram.com/guilhermemar](http://instagram.com/guilhermemar)
-* 
+* [instagram.com/guilhermemar](http://instagram.com/guilhermemar) 
+
 If you want a more professional contact
 
 * [linkedin.com/in/guilhermemar](http://linkedin.com/in/guilhermemar)
