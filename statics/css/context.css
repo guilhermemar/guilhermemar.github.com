@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    color: #fff;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    position: fixed;
+    padding: 5px;
+    font-size: 2.5rem;
+}
+
+.scene {
+    width: 100%;
+    height: 100%;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one .i-know,
+.one .i-know-too {
+    text-align: center;
+}
+
+.one .i-know {
+    width: 235px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.one .i-know .vanillajs {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.one .i-know .developper {
+    font-size: 2rem;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+}
