@@ -30,7 +30,6 @@ h1 {
 }
 
 .one .i-know {
-    width: 235px;
     position: relative;
     margin: 0 auto;
 }
@@ -38,11 +37,52 @@ h1 {
 .one .i-know .vanillajs {
     font-size: 6rem;
     font-weight: bold;
+    transition: font-size 500ms ease;
+}
+
+@media (min-width: 600px) {
+    .one .i-know .vanillajs {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .one .i-know .vanillajs {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .one .i-know .vanillajs {
+        font-size: 12rem;
+    }
 }
 
 .one .i-know .developper {
     font-size: 2rem;
     position: absolute;
-    bottom: -15px;
+    bottom: -20px;
     right: 0;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+
+@media (min-width: 800px) {
+    .one .i-know .developper {
+        font-size: 1.5rem;
+        bottom: 94px;
+        right: -10px;
+        transform: rotate(-90deg);
+        transform-origin: right;
+    }
+}
+
+@media (min-width: 1000px) {
+    .one .i-know .developper {
+        font-size: 1.7rem;
+        bottom: 114px;
+    }
+}
+.one .i-know-too {
+    display:none;
 }
