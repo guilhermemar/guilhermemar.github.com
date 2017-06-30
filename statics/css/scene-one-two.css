@@ -1,0 +1,119 @@
+.one {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: height 1s;
+}
+
+.scene-two .one {
+    height: 80%
+}
+
+.one .i-know {
+    text-align: center;
+}
+
+.one .i-know {
+    position: relative;
+    margin: 0 auto;
+}
+
+.one .i-know .vanillajs {
+    font-size: 6rem;
+    font-weight: bold;
+    transition: font-size 500ms ease;
+}
+
+.one .i-know .developper {
+    font-size: 2rem;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    font-weight: 600;
+    transition: all 500ms ease;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: -50%;
+    transition: bottom 1s;
+}
+
+.scene-two .two {
+    bottom: 0;
+}
+
+.two .i-know-too {
+    text-align: center;
+}
+
+.two .i-know-too .also-know {
+    font-size: 1.8rem;
+}
+
+.two .i-know-too .css-html {
+    font-size: 5rem;
+}
+
+@media (min-width: 600px) {
+    .one .i-know .vanillajs {
+        font-size: 7rem;
+    }
+
+    .two .i-know-too .also-know {
+        font-size: 2rem;
+    }
+
+    .two .i-know-too .css-html {
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .one .i-know .vanillajs {
+        font-size: 10rem;
+    }
+
+    .one .i-know .developper {
+        font-size: 1.5rem;
+        bottom: 94px;
+        right: -10px;
+        transform: rotate(-90deg);
+        transform-origin: right;
+    }
+
+    .two .i-know-too .also-know {
+        font-size: 2.8rem;
+    }
+
+    .two .i-know-too .css-html {
+        font-size: 7.5rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .one .i-know .vanillajs {
+        font-size: 12rem;
+    }
+
+    .one .i-know .developper {
+        font-size: 1.6rem;
+        bottom: 110px;
+    }
+
+    .two .i-know-too .also-know {
+        font-size: 3rem;
+    }
+
+    .two .i-know-too .css-html {
+        font-size: 8.5rem;
+    }
+}
