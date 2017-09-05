@@ -1,0 +1,61 @@
+.scene-three .scene.three {
+    display: flex;
+}
+
+.three {
+    flex-direction: column;
+}
+
+.three .also-know-these {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 35%;
+    width: 100%;
+}
+
+.three .also-know-these h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.three ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-basis: 75%;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.three ul li {
+    margin: 10px 10px;
+}
+
+@media (min-width: 600px) {
+    .three ul {
+        font-size: 2.5rem;
+    }
+
+    .three ul  li {
+        margin: 15px 30px;
+    }
+}
+
+@media (min-width: 800px) {
+    .three .also-know-these h2 {
+        font-size: 5rem.
+    }
+    
+    .three ul {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .three ul {
+        font-size: 4rem;
+    }
+}

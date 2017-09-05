@@ -1,3 +1,8 @@
+.scene-one .scene.one-two,
+.scene-two .scene.one-two{
+    display: block;
+}
+
 .one {
     position: absolute;
     display: flex;
