@@ -1,0 +1,73 @@
+.scene-four .scene.four {
+    display: flex;
+}
+
+.four {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.four .contact-me {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 35%;
+    width: 100%;
+}
+
+.four .contact-me h2 {
+    font-size: 3rem;
+    text-align: center;
+    transition: font-size 250ms linear;
+}
+
+.four .contact-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.four .contact-options img {
+    margin: 30px auto;
+    width: 75px;
+    height: 75px;
+
+    transition: width 250ms linear,
+                height 250ms linear;
+}
+
+@media (min-width: 600px) {
+    .four .contact-options {
+        flex-direction: row;
+    }
+
+    .four .contact-options img {
+        margin: auto 30px;
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .four .contact-me h2 {
+        font-size: 5rem;
+    }
+
+    .four .contact-options img {
+        margin: auto 40px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .four .contact-options img {
+        margin: auto 50px;
+        width: 125px;
+        height: 125px;
+    }
+}
