@@ -25,18 +25,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 75%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .four .contact-options img {
-    margin: 30px auto;
+    margin: 10px auto;
     width: 75px;
     height: 75px;
 
     transition: width 250ms linear,
                 height 250ms linear;
+}
+
+@media (min-height: 600px) {
+    .four .contact-options {
+        flex-basis: 50%;
+    }
 }
 
 @media (min-width: 600px) {
@@ -45,7 +51,7 @@
     }
 
     .four .contact-options img {
-        margin: auto 30px;
+        margin: auto 10px;
         width: 85px;
         height: 85px;
     }
