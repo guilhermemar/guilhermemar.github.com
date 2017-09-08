@@ -1,8 +1,3 @@
-.scene-one .scene.one-two,
-.scene-two .scene.one-two{
-    display: block;
-}
-
 .one {
     position: absolute;
     display: flex;
@@ -52,7 +47,8 @@
     transition: bottom 1s;
 }
 
-.scene-two .two {
+.scene-two .two,
+.scene-three .two {
     bottom: 0;
 }
 

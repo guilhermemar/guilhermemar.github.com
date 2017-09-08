@@ -5,6 +5,7 @@ body {
 
     color: #fff;
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+    overflow: hidden;
 }
 
 h1 {
@@ -18,5 +19,18 @@ h1 {
     height: 100%;
     overflow: hidden;
     position: relative;
-    display: none;
+    transition: margin-top 500ms linear;
+}
+
+.scene-one .scene.one-two,
+.scene-two .scene.one-two{
+    margin-top: 0;
+}
+
+.scene-three .scene.one-two {
+    margin-top: -100vh;
+}
+
+.scene-four .scene.one-two {
+    margin-top: -200vh;
 }

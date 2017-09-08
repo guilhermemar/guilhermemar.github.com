@@ -1,8 +1,5 @@
-.scene-three .scene.three {
-    display: flex;
-}
-
 .three {
+    display: flex;
     flex-direction: column;
 }
 
