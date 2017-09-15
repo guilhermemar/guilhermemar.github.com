@@ -7,7 +7,6 @@
 .four .contact-me {
     display: flex;
     flex-direction: column-reverse;
-    flex-basis: 35%;
     width: 100%;
 }
 
@@ -55,6 +54,9 @@
 }
 
 @media (min-width: 800px) {
+    .four .contact-me {
+        flex-basis: 35%;
+    }
 
     .four .contact-me h2 {
         font-size: 5rem;
