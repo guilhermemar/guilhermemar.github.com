@@ -72,3 +72,7 @@ document.body.addEventListener('touchmove', function onTouchEnd (e) {
 
     touchYstart = null;
 });
+
+document.getElementById('down').addEventListener('click', function onClick () {
+    whellAction('down');
+});

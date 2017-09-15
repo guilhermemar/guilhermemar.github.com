@@ -19,7 +19,7 @@ h1 {
     height: 100%;
     overflow: hidden;
     position: relative;
-    transition: margin-top 500ms linear;
+    transition: margin-top 800ms ease;
 }
 
 .scene-one .scene.one-two,
@@ -33,4 +33,35 @@ h1 {
 
 .scene-four .scene.one-two {
     margin-top: -200vh;
+}
+
+.down {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    margin: auto;
+    border-radius: 50%;
+    left: 50%;
+    border: 2px solid #fff;
+    margin-left: -25px;
+    cursor: pointer;
+    transition: bottom 500ms ease;
+}
+
+.down::before {
+    content: '';
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+.scene-four .down {
+    bottom: -45px;
 }
